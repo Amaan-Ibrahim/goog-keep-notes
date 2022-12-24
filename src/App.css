@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main_div{
+  margin: 100px 0px 0px 700px ;
+  box-shadow: 0px 0px 8px gray ;
+  width: 580px;
+  border-radius: 10px;
+  height: 140px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input_feild{
+  width: 480px;
+  height: 38px;
+  font-size: 18px;
+  font-weight: bold;
+  text-indent: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+::placeholder{
+  font-weight: normal;
+  font-size: 17px;
+}
+.Text_area{
+  width: 480px;
+  height: 38px;
+  font-size: 15px;
+  text-indent: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  
+}
+.icons{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  
+}
+span{
+  padding:7px ;
+  padding-top: 8px;
+  margin-left: 10px;
+  border-radius: 50px;
+  background-color: white;
+  transition: 0.6s;
+}
+span:hover{
+  background-color: rgb(244, 238, 238);
+}
+.icons_div{
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+.colseButton{
+  margin-top: 20px;
+}
+.second_main_div{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  border: 1px solid gray;
+  width: 15%;
+  border-radius: 10px;
+
+  box-shadow: 0px 0px 5px gray ;
+padding-left:10px;
+margin-left:30px ;
+
+}
+.first_div{
+  display: flex;
+  justify-content: space-between;
+}
+.dived1{
+  margin-right: 5px;
+  margin-top: 5px;
+  
+}
+.parafooter{
+  margin-top: 10px;
+}
+.add_button_style{
+  border: none;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 11px;
+  box-shadow: 0px 6px 8px rgb(170, 165, 165);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main_div_all{
+  display: flex;
+  /* flex-direction: column; */
+  margin-top: 100px;
 }
